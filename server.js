@@ -3,7 +3,7 @@ const server = express();
 const helmet = require('helmet');
 const cors = require('cors');
 // Express Routes
-const authRoutes = require('./routes/auth');
+const authRoutes = require('./routes/auth-routes');
 const usersRoutes = require('./routes/users-routes');
 // global middleware
 server.use(cors())
